@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LBSNews</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- net -->
+    <string name="net_error">网络连接异常,请稍后再试~</string>
+    
+    <!-- NearPeopleActivity -->
+    <string name="near_people_distance">距离您:</string>
+    <string name="near_people_activity">附近的人</string>
+    <string name="near_people_convert">转换</string>
+    <string name="near_people_load">加载</string>
+	<string name="near_people_get_ing">获取中。。。</string>
+	<string name="near_people_get_success">获取成功</string>
+	<string name="near_people_get_no_more_content">没有了</string>
+	<string name="near_poeple_get_fail">获取失败</string>
+    
+    <!-- MyCollectActivity -->
+    <string name="mycollect_activity">我的收藏</string>
+    <string name="mycollect_back">返回</string>
+    <string name="mycollect_get_ing">获取中。。。</string>
+    <string name="mycollect_get_success">获取成功</string>
+    <string name="mycollect_get_no_more_content">没有更多内容了</string>
+    <string name="mycollect_get_fail">获取失败</string>
+
+    <!-- MyNewsActivity -->
+    <string name="mynews_activity">我的趣事</string>
+    <string name="mynews_back">返回</string>
+    <string name="mynews_load">加载</string>
+    <string name="mynews_get_ing">获取中</string>
+    <string name="mynews_get_success">获取成功</string>
+    <string name="mynews_get_no_more_content">没有更多内容了</string>
+    <string name="mynews_get_fail">获取失败</string>
+
+    <!-- SendNewsActivity -->
+    <string name="send_news_activity">发布趣事</string>
+    <string name="send_news_cancel">取消</string>
+    <string name="send_news_send">发布</string>
+    <string name="send_news_ing">发布中，请稍等。。。</string>
+    <string name="send_news_success">发布成功</string>
+    <string name="send_news_fail">发布失败</string>
+    <string name="send_news_text_is_null">内容不能为空</string>
+    <string name="send_news_text_hint">说点什么吧(不包含政治、色情；不包含邮件、电话、地址等隐私信息)</string>
+
+    <!-- CommentActivity -->
+    <string name="comment_activity">评论页面</string>
+    <string name="comment_comment">评论</string>
+    <string name="comment_back">返回</string>
+    <string name="comment_load">加载</string>
+    <string name="comment_get_ing">获取评论中。。。</string>
+    <string name="comment_get_success">获取成功</string>
+    <string name="comment_get_no_more_content">没有更多内容了</string>
+    <string name="comment_get_fail">获取失败</string>
+    <string name="comment_detail">评论详情</string>
+    <string name="comment_ok">确定</string>
+    <string name="comment_cancel">取消</string>
+    <string name="comment_detail_content_is_null">评论不能为空</string>
+    <string name="comment_send_ing">发送中。。。</string>
+    <string name="comment_send_success">发表成功</string>
+    <string name="comment_send_fail">发表失败</string>
+
+    <!-- NewsActivity -->
+    <string name="news_activity">趣事百科</string>
+    <string name="news_send">发布</string>
+    <string name="news_get_news_fail">获取趣事失败</string>
+    <string name="news_get_news_ing">获取中。。。</string>
+    <string name="news_get_news_success">获取成功</string>
+    <string name="news_get_news_no_more_content">没有更多内容了</string>
+    <string name="news_refresh">刷新</string>
+
+    <!-- SettingActivity -->
+    <string name="setting_activity">设置</string>
+    <string name="self_info">个人信息</string>
+    <string name="my_favorite">我的收藏</string>
+    <string name="my_news">我的发布</string>
+    <string name="about">关于</string>
+
+    <!-- login layout -->
+    <string name="login_account_textview">用户账号:</string>
+    <string name="login_password_textview">用户密码:</string>
+    <string name="login_account_edittext">请输入邮箱账号</string>
+    <string name="login_password_edittext">输入密码</string>
+    <string name="logon_confirm_pw_textview">确认密码</string>
+    <string name="logon_confirm_pw_exittext">再次输入密码</string>
+    <string name="login_button">登录</string>
+    <string name="logon_button">注册</string>
+    <string name="noaccount_textview">没有账号？</string>
+
+    <!-- LogonActivity -->
+    <string name="logon_input_account">请输入账号</string>
+    <string name="logon_input_pasword">请输入密码</string>
+    <string name="logon_password_not_matched">两次密码不一样，重新输入</string>
+    <string name="logon_ing">正在注册(~_~)</string>
+    <string name="logon_sucess">注册成功(^o^)</string>
+    <string name="logon_failed">注册失败,账号已存在╮(╯﹏╰)╭</string>
+
+    <!-- MediaUtils -->
+    <string name="media_utils_pic_local">从相册中选取</string>
+    <string name="media_utils_pic_take">拍照</string>
+    <string name="media_utils_pic_insert_title">插入图片</string>
+    <string name="media_utils_audio_local">从本地音频中选取</string>
+    <string name="media_utils_audio_take">录音</string>
+    <string name="media_utils_audio_insert_title">插入音频</string>
+    <string name="media_utils_video_local">从本地中选取</string>
+    <string name="media_utils_video_take">拍摄</string>
+    <string name="media_utils_video_insert_title">插入视频</string>
+    <string name="media_utils_cancel">取消</string>
+
+    <!-- LoginActivity -->
+    <string name="login_input_account">请输入账号</string>
+    <string name="login_input_password">请输入密码</string>
+    <string name="login_account_error">请输入正确格式的邮箱账号</string>
+    <string name="login_ing">登陆中(~_~)</string>
+    <string name="login_sucess">登陆成功(^o^),正在跳转</string>
+    <string name="login_fail">账号或密码错误,登陆失败╮(╯﹏╰)╭  您可以稍后在试</string>
+
+    <!-- MainTabActivity -->
+    <string name="main_people">附近的人</string>
+    <string name="main_news">新鲜事</string>
+    <string name="main_set">设置</string>
+
+    <!-- UpdateUserActivity -->
+    <string name="update_user_save">保存</string>
+    <string name="update_user_skip">跳过</string>
+    <string name="update_user_complete_info">完善个人信息</string>
+    <string name="update_user_upload_pic">上传头像</string>
+    <string name="update_user_nick_name">昵称:</string>
+    <string name="update_user_sex">性别:</string>
+    <string name="update_user_sex_male">男</string>
+    <string name="update_user_sex_female">女</string>
+    <string name="update_user_telephone">手机:</string>
+    <string name="update_user_ing">更新中</string>
+    <string name="update_user_success">更新成功</string>
+    <string name="update_user_failed">更新失败,请重新尝试</string>
+
+    <!-- UserInfoActivity -->
+    <string name="user_info">个人资料页面</string>
+    <string name="user_info_nick_name">我的昵称</string>
+    <string name="user_info_sex">性别：</string>
+    <string name="user_info_telephont">手机：</string>
+    <string name="user_info_account">账号：</string>
+    <string name="user_into_modify_info">点击修改资料</string>
+
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+
+    <RelativeLayout
+        android:id="@+id/self_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/self_list_above"
+        android:clickable="true"
+        android:focusable="true" >
+
+        <TextView
+            android:id="@+id/selfInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/self_info" />
+
+        <ImageView
+            android:id="@+id/selfInfoImageView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/self_list_triangle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/my_favorite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/self_list_mid"
+        android:clickable="true"
+        android:focusable="true" >
+
+        <TextView
+            android:id="@+id/myFavoriteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/my_favorite" />
+
+        <ImageView
+            android:id="@+id/myFavoriteImageView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/self_list_triangle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/my_news"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/self_list_mid"
+        android:clickable="true"
+        android:focusable="true" >
+
+        <TextView
+            android:id="@+id/myNewsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/my_news" />
+
+        <ImageView
+            android:id="@+id/myNewsImageView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/self_list_triangle" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/more_about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/self_list_below"
+        android:clickable="true"
+        android:focusable="true" >
+
+        <TextView
+            android:id="@+id/aboutTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/about" />
+
+        <ImageView
+            android:id="@+id/aboutImageView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/self_list_triangle" />
+    </RelativeLayout>
+
+</LinearLayout>

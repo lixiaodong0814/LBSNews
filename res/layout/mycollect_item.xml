@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingBottom="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/userImageViewMyCollect"
+            android:layout_width="48dip"
+            android:layout_height="48dip" />
+
+        <View
+            android:layout_width="20dip"
+            android:layout_height="fill_parent" />
+
+        <TextView
+            android:id="@+id/nickNameTextViewMyCollect"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textContentTextViewMyCollect"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/picContentImageViewMyCollect"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/publishTimeTextviewMyCollect"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

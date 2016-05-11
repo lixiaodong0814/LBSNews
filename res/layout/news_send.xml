@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+
+    <EditText
+        android:id="@+id/textNewsEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/edit_text"
+        android:gravity="left|top"
+        android:textColor="@color/black"
+        android:hint="@string/send_news_text_hint" />
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView 
+            android:id="@+id/myLocationImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/maker"/>
+        <TextView 
+            android:id="@+id/myLocationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView 
+        android:id="@+id/picShowImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="0dip" >
+
+        <ImageView
+            android:id="@+id/albumNewsImageView"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_album" />
+
+        <ImageView
+            android:id="@+id/cameraNewsImageView"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/icon_camera" />
+    </LinearLayout>
+
+</LinearLayout>

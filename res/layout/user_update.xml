@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_frag_textcolor"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/title" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/headpic"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:padding="2dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/account_photo_bg"/>
+
+            <Button
+                android:id="@+id/upload_headpic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_user_upload_pic" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/main_list_row_divider" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/update_user_nick_name" />
+
+                <EditText
+                    android:id="@+id/nick_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:singleLine="true"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/update_user_sex" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/update_user_sex_male" />
+
+                    <RadioButton
+                        android:id="@+id/female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/update_user_sex_female" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/update_user_telephone" />
+
+                <EditText
+                    android:id="@+id/telephone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

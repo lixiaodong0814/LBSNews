@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="tianlan">#87CEEB</color>
+    <color name="yinhui">#C0C0C0</color>
+    <color name="shentianlan">#1E90FF</color>
+    <color name="huise">#808080</color>
+    <color name="black">#000000</color>
+    <color name="daoqilan">#1E90FF</color>
+    
+    <color name="main_bg">#EBEBEB</color>
+    <color name="main_frag_textcolor">#878787</color>
+</resources>
